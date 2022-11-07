@@ -19,6 +19,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "peerDependencies": {
+    "markdownlint-cli2": "^0.5.1"
+  },
   "devDependencies": {
     "@schoero/eslint-config": "^1.22.0"
   }

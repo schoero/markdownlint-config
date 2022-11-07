@@ -49,3 +49,15 @@ To configure the extension properly, create a `.vscode/settings.json` with the f
   }
 }
 ```
+
+If you want to have linting scripts, you can use something like this in the `package.json`:
+
+```jsonc
+{
+  "scripts": {
+    "markdownlint": "node_modules/markdownlint-cli2/markdownlint-cli2.js '**/*.md' '#node_modules'",
+    "markdownlint:ci": "npm run markdownlint",
+    "markdownlint:fix": "node_modules/markdownlint-cli2/markdownlint-cli2-fix.js '**/*.md' '#node_modules'"
+  }
+}
+```
