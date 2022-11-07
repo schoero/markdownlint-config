@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "@schoero/markdownlint-config",
+  "description": "Personal markdownlint config",
+  "license": "MIT",
+  "author": "Roger Schönbächler",
+  "homepage": "https://github.com/schoero/markdownlint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoero/markdownlint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schoero/markdownlint-config/issues"
+  },
+  "main": "index.jsonc",
+  "files": [
+    "index.jsonc"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@schoero/eslint-config": "^1.22.0"
+  }
+}

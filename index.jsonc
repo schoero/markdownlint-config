@@ -1,0 +1,45 @@
+{
+  "blanks-around-fences": true,
+  "blanks-around-lists": true,
+  "code-block-style": { "style": "fenced" },
+  "code-fence-style": { "style": "backtick" },
+  "commands-show-output": true,
+  "default": true,
+  "fenced-code-language": true,
+  "heading-style": { "style": "atx" },
+  "hr-style": { "style": "---" },
+  "line-length": false,
+  "link-fragments": true,
+  "no-alt-text": true,
+  "no-bare-urls": true,
+  "no-duplicate-heading": false,
+  "no-emphasis-as-heading": true,
+  "no-empty-links": true,
+  "no-inline-html": {
+    "allowed_elements": [
+      "a",
+      "br",
+      "details",
+      "div",
+      "h1", // image heading: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md041---first-line-in-a-file-should-be-a-top-level-heading
+      "img",
+      "kbd",
+      "p",
+      "picture",
+      "small",
+      "summary",
+      "span",
+      "src",
+      "sub",
+      "sup"
+    ]
+  },
+  "no-missing-space-atx": true,
+  "no-multiple-space-atx": true,
+  "no-reversed-links": true,
+  "no-space-in-code": true,
+  "no-space-in-emphasis": true,
+  "ol-prefix": { "style": "one" },
+  "single-trailing-newline": true,
+  "ul-style": { "style": "asterisk" }
+}
