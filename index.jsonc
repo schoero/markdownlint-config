@@ -39,7 +39,7 @@
   "no-reversed-links": true,
   "no-space-in-code": true,
   "no-space-in-emphasis": true,
-  "ol-prefix": { "style": "one" },
+  "ol-prefix": { "style": "one_or_ordered" },
   "single-trailing-newline": true,
   "ul-style": { "style": "asterisk" }
 }
