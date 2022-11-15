@@ -6,6 +6,7 @@
   "commands-show-output": true,
   "default": true,
   "fenced-code-language": true,
+  "first-line-heading": false,
   "heading-style": { "style": "atx" },
   "hr-style": { "style": "---" },
   "line-length": false,
