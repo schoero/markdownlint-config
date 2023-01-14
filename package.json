@@ -23,6 +23,6 @@
     "markdownlint-cli2": "^0.5.1"
   },
   "devDependencies": {
-    "@schoero/eslint-config": "^1.22.0"
+    "@schoero/cspell-config": "^1.6.5",
   }
 }
