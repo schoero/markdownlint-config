@@ -20,9 +20,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "markdownlint-cli2": "^0.5.1"
+    "markdownlint-cli2": "^0.6.0"
   },
   "devDependencies": {
     "@schoero/cspell-config": "^1.6.5",
+    "@schoero/eslint-config": "^1.34.2"
   }
 }
