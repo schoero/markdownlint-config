@@ -1,42 +1,8 @@
 {
   "import": [
-    "@schoero/cspell-config",
-    "@cspell/dict-fr-fr/cspell-ext.json",
-    "@cspell/dict-it-it/cspell-ext.json"
-  ],
-  "overrides": [
-    {
-      "filename": "**/translations.ts",
-      "language": "en, de, fr, it",
-      "caseSensitive": false
-    }
+    "@schoero/cspell-config"
   ],
   "words": [
-    "debitor",
-    "Rutschmann",
-    "Grosse",
-    "iban",
-    "qrcodegen",
-    "qriban",
-    "QRIBAN",
-    "QRIID",
-    "QRR",
-    "SCOR",
-    "swiss",
-    "swissqrbill",
-    "undash",
-    "Rutschmann",
-    "Schnyder",
-    "pdfkit",
-    "svgpath",
-    "TWINT",
-    "twint",
-    "Twint"
-  ],
-  "ignorePaths": [
-    "node_modules/**",
-    "lib/**",
-    "tests/output/**",
-    "src/shared/qr-code-generator.ts"
+    // Additional words
   ]
 }
