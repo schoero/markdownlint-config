@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "@schoero/cspell-config": "^1.6.14",
-    "@schoero/eslint-config": "^1.38.2"
+    "@schoero/eslint-config": "^1.38.3"
   }
 }
